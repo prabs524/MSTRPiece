@@ -1,9 +1,9 @@
-name: digitycs-website
+name: mstrpiece
 services:
 - build_command: npm run build
   environment_slug: node-js
   github:
     branch: main
     deploy_on_push: true
-    repo: KPtheitguy/DigitycsWebsite
-  name: digitycs-website
+    repo: prabs524/MSTRPiece
+  name: MSTRPiece
