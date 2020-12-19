@@ -1,0 +1,9 @@
+name: digitycs-website
+services:
+- build_command: npm run build
+  environment_slug: node-js
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: KPtheitguy/DigitycsWebsite
+  name: digitycs-website
