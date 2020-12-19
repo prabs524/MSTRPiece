@@ -57,7 +57,7 @@ const Header = () => {
             </Button>
           </Col>
         </Row>
-        <AddCard show={show} handleClose={handleClose} />
+        {/* <AddCard show={show} handleClose={handleClose} /> */}
       </Container>
       <br />
     </header>

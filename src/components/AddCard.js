@@ -1,7 +1,7 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/form";
+// import Form from "react-bootstrap/form";
 
 const AddCard = ({ show, handleClose }) => {
   return (
@@ -10,7 +10,7 @@ const AddCard = ({ show, handleClose }) => {
         <Modal.Title>Create Your Own Image</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Form>
+        {/* <Form>
           <Form.Group controlId="exampleForm.ControlSelect1">
             <Form.Label>Genre</Form.Label>
             <Form.Control as="select">
@@ -32,7 +32,7 @@ const AddCard = ({ show, handleClose }) => {
             <Form.Label>Description</Form.Label>
             <Form.Control as="textarea" rows="3" />
           </Form.Group>
-        </Form>
+        </Form> */}
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
